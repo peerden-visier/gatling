@@ -41,3 +41,7 @@ Migrating from 2.3 to 3.0
   * Maven users must upgrade gatling-maven-plugin to `3.0 <https://search.maven.org/search?q=a:gatling-maven-plugin>`__.
   * options' aliases were dropped, use full option names instead
   * Drop deprecated gatling-maven-plugin's ``execute`` task, use ``test`` instead
+  
+* Checks
+
+  * ``greaterThan``,``greaterThanOrEqual``,``lessThan``,``lessThanOrEqual`` were renamed to ``gt``,``gte``,``lt``,``lte``
